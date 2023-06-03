@@ -1,0 +1,25 @@
+---
+import Section from "./Section.astro";
+---
+
+<Section 
+	title="Techo Solar" 
+	subtitle="Produce energía limpia desde tu techo"
+	color="black"
+>
+  <div slot="footer" class="gap-x-4 flex mx-auto">
+    <a class="border-[3px] border-[#2a2c2f] bg-[#2a2c2f] text-sm rounded font-medium text-white px-12 py-2 transition-colors hover:border-[#1d1f21] hover:bg-[#1d1f21]" href="#">
+      Llevalo ahora
+    </a>
+    <a class="bg-white/50 backdrop-blur-sm text-sm rounded font-medium px-12 py-2  transition-colors hover:bg-[#1d1f21]/50 hover:text-white inline-flex justify-center items-center text-black " href="#">
+      Conoce más
+    </a>
+  </div>
+
+  <img 
+    slot="background" 
+    src="/SolarRoof.avif" 
+    alt="Model 3"
+    class="h-full w-full object-cover object-center"
+  />
+</Section>
